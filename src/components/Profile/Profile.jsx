@@ -6,7 +6,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
     <div className={css.profile}>
             <div className={css.description}>
                 <img
-                    // src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
                     src={avatar}
                     alt="User avatar"
                     className={css.avatar}
@@ -39,8 +38,9 @@ Profile.propTypes = {
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    followers: PropTypes.number.isRequired,
-    views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
+    stats: PropTypes.object.isRequired,
+    // followers: PropTypes.number.isRequired,
+    // views: PropTypes.number.isRequired,
+    // likes: PropTypes.number.isRequired,
 }
 
