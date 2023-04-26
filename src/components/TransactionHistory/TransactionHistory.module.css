@@ -5,4 +5,6 @@
     line-height: 26px;
     font-weight: 400;
     margin-right: 20px;
+    border: 2px solid #07e926;
+    border-radius: 4px;
 }

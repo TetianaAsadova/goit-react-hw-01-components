@@ -1,3 +1,8 @@
+.statistics {
+    border: 2px solid #5409f5;
+    border-radius: 4px;
+}
+
 .statList {
     display: flex;
     justify-content: space-between;
