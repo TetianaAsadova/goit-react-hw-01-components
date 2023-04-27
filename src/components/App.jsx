@@ -12,18 +12,11 @@ export const App = () => {
     <div
       style={{
         display: 'block',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '300px',
+        width: '500px',
         marginLeft: 'auto',
         marginRight: 'auto',
       }}
     >
-
-{/* height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center', */}
 
       <Profile
         username={user.username}

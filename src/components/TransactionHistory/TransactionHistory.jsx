@@ -7,19 +7,20 @@ export const TransactionHistory = ({ items }) => {
         <table className={css.transactionHistory}>
             <thead>
                 <tr>
-                    <th>Type</th>
-                    <th>Amount</th>
-                    <th>Currency</th>
+                    <th className={css.title}>Type</th>
+                    <th className={css.title}>Amount</th>
+                    <th className={css.title}>Currency</th>
                 </tr>
             </thead>
 
             <tbody>
                 {items.map(item => 
                     <tr key={item.id}>                    
-                        <td>{item.type}</td>
-                        <td>{item.amount}</td>
-                        <td>{item.currency}</td>
+                        <td className={css.item}>{item.type}</td>
+                        <td className={css.item}>{item.amount}</td>
+                        <td className={css.item}>{item.currency}</td>
                     </tr>
+            
                 )}   
             </tbody>
         </table>
