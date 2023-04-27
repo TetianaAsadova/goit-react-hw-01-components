@@ -4,7 +4,7 @@ import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
     return (
-        <table className={css.transactionHistory} cellSpacing={0}>
+        <table className={css.transactionHistory} cellSpacing={1} cellPadding={10}>
             <thead>
                 <tr>
                     <th className={css.title}>Type</th>
